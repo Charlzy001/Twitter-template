@@ -1,0 +1,273 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(217, 235, 241);
+
+}
+.nav_section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    height: 4rem;
+    border: 2px solid black;
+    background-color: white;
+    padding:0 9rem  ;
+
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+.navlinks{
+    display: flex;
+    flex-direction: ;
+    gap: 2rem;
+    list-style-type: none;
+    font-weight: 600; 
+    padding-left: 1rem;   
+    
+
+    
+}
+
+    .navlinks2{
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+        list-style-type: none;
+        font-weight: 600;   
+        align-items: ; 
+        padding-left: 50rem;
+        
+}
+.navlinks .div{
+    height: 1rem;
+}
+/* .nav_section .icon{
+    padding: 4rem;
+    height: 50%;
+
+} */
+.white{
+    height: 4rem ;
+    background-color: white;
+}
+
+.blank{
+    height: 14rem;
+    background-color: black;
+   
+}
+.musk{
+    padding: 4rem ;
+    padding-left: 8rem;
+
+}
+.blank img{
+    border-radius: 19rem;
+    border: 4px solid white;
+    height: 12rem;
+    width: 12rem;
+}
+.white{
+    display: flex;
+    /* flex-direction: row; */
+    color: black;
+    margin: -10rem;
+    width: 109%;
+    align-items: center;
+    gap: 3rem;
+    padding-left: 30%;
+
+
+}
+.white h1{
+    font-size: large;
+    /* padding: 2rem; */
+}   
+.white button{
+color: rgb(90, 201, 221);
+height: 2rem;
+width: 7rem;
+background-color: white;
+border-color: rgb(90, 201, 221) ;
+border-radius: 5rem;
+font-size: large;
+font-weight: 700;
+}
+ .btn{
+    padding-left: 40%;
+ } 
+.container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+    gap: 2rem;
+    padding: 3rem;
+
+} 
+.box1{
+    background-color: rgb(217, 235, 241);
+    /* border: 1px solid black; */
+    height: 40rem;
+    width: 20rem;
+    padding-right: 5rem;
+    /* display: flex; */
+
+}
+
+.box1 .elon{
+    /* display: flex; */
+    padding-left: 1rem;
+    margin-top: 2rem;
+    font-size: large;
+    font
+}
+.elon h1{
+    font-size: 1.5rem;
+}
+#photos{
+   color:rgba(50, 136, 216, 0.877);
+}
+
+.box1 .slide{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: .5rem .5rem;
+    align-items: center;
+    justify-content: center;
+    padding-left: 6rem;
+
+}
+.box1 .slide img{
+    margin-top: .5rem;
+    border-radius: .4rem;
+    height: 6rem;
+    width: 6rem;
+}
+
+.box2{
+    /* display: flex;
+    flex-direction: row; */
+    background-color: white;
+    height: 40rem;
+    width: 70rem;
+  
+}
+
+.box2 .tweet{
+    color: black;
+
+}
+.box2 li{
+    color:rgba(14, 105, 190, 0.877);
+}
+.box2 ul{
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+    font-size: large;
+    font-weight: bolder;
+    padding: 1rem;
+    
+
+}
+.box2 .content{
+    display: flex;
+    padding-left: 1rem;
+    padding-top: .5rem;
+    
+}
+.content h1{
+    padding-left: 1rem;
+}
+
+
+.box2 .tue{
+    padding-left: 5rem;
+    margin-top: -2rem;
+}
+.box2 img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 5rem;
+    
+}
+.box2 .profile{
+    padding-left: rem;
+}
+.box3{
+    background-color: rgb(144, 200, 223);
+    height: 40rem;
+    width: 22rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    
+}
+.box3 .first_div{
+/* background-color: aqua; */
+height: 10rem;
+background-color: white;
+padding: 1rem;
+font-family: cursive;
+
+}
+.first_div button{
+    
+    width: 20rem;
+    height: 3rem;
+    font-size: large;
+    color: white;
+    font-weight:900px; 
+    background-color:rgba(50, 136, 216, 0.877);
+    border-radius: 5rem;
+    border-style: none;
+    align-items: center;
+    margin-top: .5rem;
+    
+}
+
+
+
+.box3 .sec_div{
+    background-color: white;
+    height:30rem ;
+  
+}
+/* .box3 .button{
+    
+} */
+.box3 .button :hover{
+    background-color: black;
+}
+.sec_div #you{
+    display: flex;
+    /* flex-direction: row; */
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.sec_div #ref{
+    font-size: small;
+    padding-top: .3rem;
+    padding-left: .1rem;
+    color: skyblue;
+}
+.users{
+    padding-left: 1rem;
+    margin:;
+}
+.users div{
+    display: flex;
+    flex-direction: ;
+}
+.users img{
+    margin: .2rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 10rem;
+}
